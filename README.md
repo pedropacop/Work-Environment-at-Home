@@ -3,3 +3,5 @@
 An animated image to make my work environment at home more personal.
 
 ![image](https://github.com/pedropacop/Work-Environment-at-Home/assets/170119316/35856ba4-6fea-4392-82b2-1c8f217b7ab9)
+
+You can see on your browser: https://pedropacop.github.io/Work-Environment-at-Home/
