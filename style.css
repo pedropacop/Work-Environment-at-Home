@@ -150,7 +150,7 @@ body {
     position: absolute;
     transform: rotate(90deg);
     background-color: black;
-    bottom: 44vh;
+    bottom: 43.5vh;
 }
 
 .antenna-tip {
@@ -171,6 +171,7 @@ body {
     position: relative;
     justify-content: left;
     margin-right: 50%;
+    margin-bottom: 15vh;
 }
 
 .line {
