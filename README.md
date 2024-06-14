@@ -1,4 +1,4 @@
-# Work-Environment-at-Home
+# Work Environment at Home
 
 An animated image to make my work environment at home more personal.
 
