@@ -1,0 +1,285 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    flex-direction: column;
+}
+
+.cs-ai {
+    color: rgb(0, 60, 113);
+    text-align: center;
+    margin-right: 50%;
+}
+
+.cs {
+    font-size: 4vw;
+    font-weight: bold;
+    text-decoration-line: overline;
+}
+
+.ai {
+    font-size: 2vw;
+    padding-left: 1vw;
+}
+
+.container-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    background-image: url("img/m_background.jpg");
+    background-size: cover;
+    border-radius: 5% 5% 40% 40%;
+    width: 15vw;
+    height: 40vh;
+    filter: drop-shadow(1px 1px 5px rgb(0, 60, 113));
+    transform: rotate(20deg);
+    animation: container 6s infinite linear;
+    margin-left: 35vw;
+    
+}
+
+.face {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.eyes {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.eyes > div {
+    background-color: rgb(255, 255, 255);
+    width: 4vw;
+    height: 8vh;
+    border-radius: 5% 5% 40% 40%;
+}
+
+.smile {
+    width: 4vw;
+    height: 5vh;
+    border-radius: 5% 5% 70% 70%;
+    background-color: rgb(251, 251, 251);
+    margin-top: 20%;
+}
+
+.member {
+    position: absolute;
+    filter: drop-shadow(1px 1px 5px rgb(0, 60, 113));
+}
+
+.arm-1, .arm-2 {
+    width: 4vw;
+    height: 0.1vh;
+    position: absolute;
+    background-color: black;
+    top: 1vh;
+}
+
+.arm-1 {
+    left: 7.5vw;
+    animation: wave1-a 1s linear infinite alternate;
+}
+
+.arm-2 {
+    right: 7.5vw;
+    animation: wave2-a 1s linear infinite alternate;
+}
+
+.leg-1, .leg-2 {
+    width: 4vw;
+    height: 0.1vh;
+    position: absolute;
+    transform: rotate(90deg);
+    background-color: black;
+    top: 23vh;
+}
+
+.leg-1 {
+    right: 1vw;
+}
+
+.leg-2 {
+    left: 1vw;
+}
+
+.extremities {
+    position: absolute;
+    filter: drop-shadow(1px 1px 5px rgb(0, 60, 113));
+}
+
+.foot-1, .foot-2 {
+    width: 1.5vw;
+    height: 1.5vh;
+    position: absolute;
+    border: 1px solid black;
+    border-radius: 0% 50% 50% 0%;
+    top: 26vh;
+}
+
+.foot-1 {
+    right: 3vw;
+    transform: rotate(-180deg);
+}
+
+.foot-2 {
+    left: 3vw;
+}
+
+.antenna-leg {
+    position: absolute;
+    filter: drop-shadow(1px 1px 5px rgb(0, 60, 113));
+    width: 4vw;
+    height: 0.1vh;
+    position: absolute;
+    transform: rotate(90deg);
+    background-color: black;
+    bottom: 44vh;
+}
+
+.antenna-tip {
+    position: absolute;
+    filter: drop-shadow(1px 1px 5px rgb(0, 60, 113));
+    width: 1.4vw;
+    height: 1.4vh;
+    position: absolute;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 0% 50% 50% 0%;
+    bottom: 47vh;
+    left: 7.5vw;
+}
+
+.template {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: left;
+    margin-right: 50%;
+}
+
+.line {
+    position: relative;
+    height: 0.3vh;
+}
+
+.l01 {
+    width: 2vw;
+    background-image: linear-gradient(to right, rgb(0, 60, 113), rgb(10, 173, 255));
+}
+
+.l02 {
+    width: 4vw;
+    background-image: linear-gradient(to right, rgb(0, 60, 113), rgb(20, 178, 255));
+    top: 0.1vh;
+}
+
+.l03 {
+    width: 6vw;
+    background-image: linear-gradient(to right, rgb(0, 60, 113), rgb(30, 183, 255));
+    top: 0.3vh;
+}
+
+.l04 {
+    width: 8vw;
+    background-image: linear-gradient(to right, rgb(0, 60, 113), rgb(40, 190, 255));
+    top: 0.4vh;
+}
+
+.l05 {
+    width: 10vw;
+    background-image: linear-gradient(to right, rgb(0, 60, 113), rgb(50, 192, 255));
+    top: 0.5vh;
+}
+
+.l06 {
+    width: 12vw;
+    background-image: linear-gradient(to right, rgb(0, 60, 113), rgb(60, 197, 255));
+    top: 0.6vh;
+}
+
+.l07 {
+    width: 14vw;
+    background-image: linear-gradient(to right, rgb(0, 60, 113), rgb(70, 201, 255));
+    top: 0.9vh;
+}
+
+.l08 {
+    width: 16vw;
+    background-image: linear-gradient(to right, rgb(0, 60, 113), rgb(80, 206, 255));
+    top: 1.4vh;
+}
+
+.l09 {
+    width: 18vw;
+    background-image: linear-gradient(to right, rgb(0, 60, 113), rgb(90, 211, 255));
+    top: 1.9vh;
+}
+
+.l10 {
+    width: 20vw;
+    background-image: linear-gradient(to right, rgb(0, 60, 113), rgb(100, 211, 255));
+    top: 2.5vh;
+}
+
+.l11 {
+    width: 22vw;
+    background-image: linear-gradient(to right, rgb(0, 60, 113), rgb(110, 211, 255));
+    top: 3.2vh;
+}
+
+.l12 {
+    width: 24vw;
+    background-image: linear-gradient(to right, rgb(0, 60, 113), rgb(120, 211, 255));
+    top: 4vh;
+}
+
+.l13 {
+    width: 26vw;
+    background-image: linear-gradient(to right, rgb(0, 60, 113), rgb(130, 211, 255));
+    top: 4.9vh;
+}
+
+.l14 {
+    width: 28vw;
+    background-image: linear-gradient(to right, rgb(0, 60, 113), rgb(140, 211, 255));
+    top: 5.9vh;
+}
+
+.l15 {
+    width: 30vw;
+    background-image: linear-gradient(to right, rgb(0, 60, 113), rgb(150, 211, 255));
+    top: 7vh;
+}
+
+
+
+@keyframes container {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+@keyframes wave1-a {
+    0% { transform: rotateZ(20deg); }
+    100% { transform: rotateZ(-20deg); }
+}
+
+@keyframes wave2-a {
+    0% { transform: rotateZ(-20deg)}
+    100% { transform: rotateZ(20deg); }
+}
